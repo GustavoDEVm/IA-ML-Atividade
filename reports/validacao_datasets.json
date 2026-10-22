@@ -1,0 +1,909 @@
+{
+  "release": "3.2.1",
+  "python": "3.11.9",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.3.3",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1"
+  },
+  "original_notebook_sha256": "fd936e76d688056d40bebc2dee7ffeb87a459e7e11a0712f3fd12ef167972f38",
+  "catalog": [
+    {
+      "name": "icon_7zip",
+      "path": "7zip.png"
+    },
+    {
+      "name": "airports",
+      "path": "airports.csv"
+    },
+    {
+      "name": "annual_precip",
+      "path": "annual-precip.json"
+    },
+    {
+      "name": "anscombe",
+      "path": "anscombe.json"
+    },
+    {
+      "name": "barley",
+      "path": "barley.json"
+    },
+    {
+      "name": "birdstrikes",
+      "path": "birdstrikes.csv"
+    },
+    {
+      "name": "budget",
+      "path": "budget.json"
+    },
+    {
+      "name": "budgets",
+      "path": "budgets.json"
+    },
+    {
+      "name": "burtin",
+      "path": "burtin.json"
+    },
+    {
+      "name": "cars",
+      "path": "cars.json"
+    },
+    {
+      "name": "co2_concentration",
+      "path": "co2-concentration.csv"
+    },
+    {
+      "name": "countries",
+      "path": "countries.json"
+    },
+    {
+      "name": "crimea",
+      "path": "crimea.json"
+    },
+    {
+      "name": "disasters",
+      "path": "disasters.csv"
+    },
+    {
+      "name": "driving",
+      "path": "driving.json"
+    },
+    {
+      "name": "earthquakes",
+      "path": "earthquakes.json"
+    },
+    {
+      "name": "ffox",
+      "path": "ffox.png"
+    },
+    {
+      "name": "flare_dependencies",
+      "path": "flare-dependencies.json"
+    },
+    {
+      "name": "flare",
+      "path": "flare.json"
+    },
+    {
+      "name": "flights_10k",
+      "path": "flights-10k.json"
+    },
+    {
+      "name": "flights_200k_arrow",
+      "path": "flights-200k.arrow"
+    },
+    {
+      "name": "flights_200k_json",
+      "path": "flights-200k.json"
+    },
+    {
+      "name": "flights_20k",
+      "path": "flights-20k.json"
+    },
+    {
+      "name": "flights_2k",
+      "path": "flights-2k.json"
+    },
+    {
+      "name": "flights_3m",
+      "path": "flights-3m.parquet"
+    },
+    {
+      "name": "flights_5k",
+      "path": "flights-5k.json"
+    },
+    {
+      "name": "flights_airport",
+      "path": "flights-airport.csv"
+    },
+    {
+      "name": "football",
+      "path": "football.json"
+    },
+    {
+      "name": "gapminder_health_income",
+      "path": "gapminder-health-income.csv"
+    },
+    {
+      "name": "gapminder",
+      "path": "gapminder.json"
+    },
+    {
+      "name": "gimp",
+      "path": "gimp.png"
+    },
+    {
+      "name": "github",
+      "path": "github.csv"
+    },
+    {
+      "name": "global_temp",
+      "path": "global-temp.csv"
+    },
+    {
+      "name": "income",
+      "path": "income.json"
+    },
+    {
+      "name": "iowa_electricity",
+      "path": "iowa-electricity.csv"
+    },
+    {
+      "name": "jobs",
+      "path": "jobs.json"
+    },
+    {
+      "name": "la_riots",
+      "path": "la-riots.csv"
+    },
+    {
+      "name": "london_boroughs",
+      "path": "londonBoroughs.json"
+    },
+    {
+      "name": "london_centroids",
+      "path": "londonCentroids.json"
+    },
+    {
+      "name": "london_tube_lines",
+      "path": "londonTubeLines.json"
+    },
+    {
+      "name": "lookup_groups",
+      "path": "lookup_groups.csv"
+    },
+    {
+      "name": "lookup_people",
+      "path": "lookup_people.csv"
+    },
+    {
+      "name": "miserables",
+      "path": "miserables.json"
+    },
+    {
+      "name": "monarchs",
+      "path": "monarchs.json"
+    },
+    {
+      "name": "movies",
+      "path": "movies.json"
+    },
+    {
+      "name": "normal_2d",
+      "path": "normal-2d.json"
+    },
+    {
+      "name": "obesity",
+      "path": "obesity.json"
+    },
+    {
+      "name": "ohlc",
+      "path": "ohlc.json"
+    },
+    {
+      "name": "penguins",
+      "path": "penguins.json"
+    },
+    {
+      "name": "platformer_terrain",
+      "path": "platformer-terrain.json"
+    },
+    {
+      "name": "political_contributions",
+      "path": "political-contributions.json"
+    },
+    {
+      "name": "population",
+      "path": "population.json"
+    },
+    {
+      "name": "population_engineers_hurricanes",
+      "path": "population_engineers_hurricanes.csv"
+    },
+    {
+      "name": "seattle_weather_hourly_normals",
+      "path": "seattle-weather-hourly-normals.csv"
+    },
+    {
+      "name": "seattle_weather",
+      "path": "seattle-weather.csv"
+    },
+    {
+      "name": "sp500_2000",
+      "path": "sp500-2000.csv"
+    },
+    {
+      "name": "sp500",
+      "path": "sp500.csv"
+    },
+    {
+      "name": "species",
+      "path": "species.csv"
+    },
+    {
+      "name": "stocks",
+      "path": "stocks.csv"
+    },
+    {
+      "name": "udistrict",
+      "path": "udistrict.json"
+    },
+    {
+      "name": "unemployment_across_industries",
+      "path": "unemployment-across-industries.json"
+    },
+    {
+      "name": "unemployment",
+      "path": "unemployment.tsv"
+    },
+    {
+      "name": "uniform_2d",
+      "path": "uniform-2d.json"
+    },
+    {
+      "name": "us_10m",
+      "path": "us-10m.json"
+    },
+    {
+      "name": "us_employment",
+      "path": "us-employment.csv"
+    },
+    {
+      "name": "us_state_capitals",
+      "path": "us-state-capitals.json"
+    },
+    {
+      "name": "volcano",
+      "path": "volcano.json"
+    },
+    {
+      "name": "weather",
+      "path": "weather.csv"
+    },
+    {
+      "name": "weekly_weather",
+      "path": "weekly-weather.json"
+    },
+    {
+      "name": "wheat",
+      "path": "wheat.json"
+    },
+    {
+      "name": "windvectors",
+      "path": "windvectors.csv"
+    },
+    {
+      "name": "world_110m",
+      "path": "world-110m.json"
+    },
+    {
+      "name": "zipcodes",
+      "path": "zipcodes.csv"
+    }
+  ],
+  "datasets": {
+    "budget.json": {
+      "url": "https://cdn.jsdelivr.net/npm/vega-datasets@3.2.1/data/budget.json",
+      "bytes": 391353,
+      "sha256": "13eeecc0993fc767df37eac8e151522a5bdaee78adcd3e7e37fe10c9ca71ea96",
+      "catalog_hash_verified": false,
+      "catalog_sha1": "sha1:5b18c08b28fb782f54ca98ce6a1dd220f269adf1",
+      "download_sha1": "sha1:5856572a77d805cae1cb6278838f3bab54cf22a8",
+      "github_url": "https://raw.githubusercontent.com/vega/vega-datasets/v3.2.1/data/budget.json",
+      "github_bytes_identical": true,
+      "rows": 237,
+      "columns": 72,
+      "dtypes": {
+        "Source Category Code": "int64",
+        "Source category name": "object",
+        "Source subcategory": "int64",
+        "Source subcategory name": "object",
+        "Agency code": "int64",
+        "Agency name": "object",
+        "Bureau code": "int64",
+        "Bureau name": "object",
+        "Account code": "int64",
+        "Account name": "object",
+        "Treasury Agency code": "int64",
+        "On- or off-budget": "object",
+        "1962": "object",
+        "1963": "object",
+        "1964": "object",
+        "1965": "object",
+        "1966": "object",
+        "1967": "object",
+        "1968": "object",
+        "1969": "object",
+        "1970": "object",
+        "1971": "object",
+        "1972": "object",
+        "1973": "object",
+        "1974": "object",
+        "1975": "object",
+        "1976": "object",
+        "TQ": "object",
+        "1977": "object",
+        "1978": "object",
+        "1979": "object",
+        "1980": "object",
+        "1981": "object",
+        "1982": "object",
+        "1983": "object",
+        "1984": "object",
+        "1985": "object",
+        "1986": "object",
+        "1987": "object",
+        "1988": "object",
+        "1989": "object",
+        "1990": "object",
+        "1991": "object",
+        "1992": "object",
+        "1993": "object",
+        "1994": "object",
+        "1995": "object",
+        "1996": "object",
+        "1997": "object",
+        "1998": "object",
+        "1999": "object",
+        "2000": "object",
+        "2001": "object",
+        "2002": "object",
+        "2003": "object",
+        "2004": "object",
+        "2005": "object",
+        "2006": "object",
+        "2007": "object",
+        "2008": "object",
+        "2009": "object",
+        "2010": "object",
+        "2011": "object",
+        "2012": "object",
+        "2013": "object",
+        "2014": "object",
+        "2015": "object",
+        "2016": "object",
+        "2017": "object",
+        "2018": "object",
+        "2019": "object",
+        "2020": "object"
+      },
+      "nulls": {
+        "Source Category Code": 0,
+        "Source category name": 0,
+        "Source subcategory": 0,
+        "Source subcategory name": 0,
+        "Agency code": 0,
+        "Agency name": 0,
+        "Bureau code": 0,
+        "Bureau name": 0,
+        "Account code": 0,
+        "Account name": 0,
+        "Treasury Agency code": 0,
+        "On- or off-budget": 0,
+        "1962": 0,
+        "1963": 0,
+        "1964": 0,
+        "1965": 0,
+        "1966": 0,
+        "1967": 0,
+        "1968": 0,
+        "1969": 0,
+        "1970": 0,
+        "1971": 0,
+        "1972": 0,
+        "1973": 0,
+        "1974": 0,
+        "1975": 0,
+        "1976": 0,
+        "TQ": 0,
+        "1977": 0,
+        "1978": 0,
+        "1979": 0,
+        "1980": 0,
+        "1981": 0,
+        "1982": 0,
+        "1983": 0,
+        "1984": 0,
+        "1985": 0,
+        "1986": 0,
+        "1987": 0,
+        "1988": 0,
+        "1989": 0,
+        "1990": 0,
+        "1991": 0,
+        "1992": 0,
+        "1993": 0,
+        "1994": 0,
+        "1995": 0,
+        "1996": 0,
+        "1997": 0,
+        "1998": 0,
+        "1999": 0,
+        "2000": 0,
+        "2001": 0,
+        "2002": 0,
+        "2003": 0,
+        "2004": 0,
+        "2005": 0,
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 0,
+        "2011": 0,
+        "2012": 0,
+        "2013": 0,
+        "2014": 0,
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0
+      },
+      "blank_strings": {
+        "Source Category Code": 0,
+        "Source category name": 0,
+        "Source subcategory": 0,
+        "Source subcategory name": 0,
+        "Agency code": 0,
+        "Agency name": 0,
+        "Bureau code": 0,
+        "Bureau name": 0,
+        "Account code": 0,
+        "Account name": 0,
+        "Treasury Agency code": 0,
+        "On- or off-budget": 0,
+        "1962": 0,
+        "1963": 0,
+        "1964": 0,
+        "1965": 0,
+        "1966": 0,
+        "1967": 0,
+        "1968": 0,
+        "1969": 0,
+        "1970": 0,
+        "1971": 0,
+        "1972": 0,
+        "1973": 0,
+        "1974": 0,
+        "1975": 0,
+        "1976": 0,
+        "TQ": 0,
+        "1977": 0,
+        "1978": 0,
+        "1979": 0,
+        "1980": 0,
+        "1981": 0,
+        "1982": 0,
+        "1983": 0,
+        "1984": 0,
+        "1985": 0,
+        "1986": 0,
+        "1987": 0,
+        "1988": 0,
+        "1989": 0,
+        "1990": 0,
+        "1991": 0,
+        "1992": 0,
+        "1993": 0,
+        "1994": 0,
+        "1995": 0,
+        "1996": 0,
+        "1997": 0,
+        "1998": 0,
+        "1999": 0,
+        "2000": 0,
+        "2001": 0,
+        "2002": 0,
+        "2003": 0,
+        "2004": 0,
+        "2005": 0,
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 0,
+        "2011": 0,
+        "2012": 0,
+        "2013": 0,
+        "2014": 0,
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0
+      },
+      "duplicate_rows": 0,
+      "sources": [
+        {
+          "title": "Office of Management and Budget - Budget FY 2016 - Receipts",
+          "path": "https://www.govinfo.gov/app/details/BUDGET-2016-DB/BUDGET-2016-DB-3"
+        }
+      ],
+      "description": "Historical and forecasted federal revenue/receipts produced in 2016 by the U.S. Office of Management and Budget.",
+      "budget_checks": {
+        "years": [
+          "1962",
+          "1963",
+          "1964",
+          "1965",
+          "1966",
+          "1967",
+          "1968",
+          "1969",
+          "1970",
+          "1971",
+          "1972",
+          "1973",
+          "1974",
+          "1975",
+          "1976",
+          "1977",
+          "1978",
+          "1979",
+          "1980",
+          "1981",
+          "1982",
+          "1983",
+          "1984",
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991",
+          "1992",
+          "1993",
+          "1994",
+          "1995",
+          "1996",
+          "1997",
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020"
+        ],
+        "numeric_conversion_failures": 0,
+        "zeros": 9415,
+        "negative_values": 308,
+        "account_code_unique": 231,
+        "duplicate_account_code_rows": 6,
+        "nonzero_by_year": {
+          "1962": 17,
+          "1963": 17,
+          "1964": 17,
+          "1965": 17,
+          "1966": 18,
+          "1967": 18,
+          "1968": 18,
+          "1969": 18,
+          "1970": 18,
+          "1971": 19,
+          "1972": 19,
+          "1973": 19,
+          "1974": 19,
+          "1975": 19,
+          "1976": 19,
+          "1977": 19,
+          "1978": 20,
+          "1979": 20,
+          "1980": 21,
+          "1981": 24,
+          "1982": 24,
+          "1983": 24,
+          "1984": 101,
+          "1985": 104,
+          "1986": 102,
+          "1987": 109,
+          "1988": 113,
+          "1989": 117,
+          "1990": 125,
+          "1991": 126,
+          "1992": 125,
+          "1993": 131,
+          "1994": 132,
+          "1995": 107,
+          "1996": 112,
+          "1997": 113,
+          "1998": 107,
+          "1999": 109,
+          "2000": 111,
+          "2001": 109,
+          "2002": 107,
+          "2003": 106,
+          "2004": 107,
+          "2005": 109,
+          "2006": 110,
+          "2007": 115,
+          "2008": 112,
+          "2009": 115,
+          "2010": 116,
+          "2011": 119,
+          "2012": 122,
+          "2013": 127,
+          "2014": 126,
+          "2015": 134,
+          "2016": 135,
+          "2017": 137,
+          "2018": 138,
+          "2019": 137,
+          "2020": 137,
+          "TQ": 19
+        },
+        "unit_and_actual_estimate_boundary": "Require confirmation from primary documentation; not inferred from year labels."
+      }
+    },
+    "cars.json": {
+      "url": "https://cdn.jsdelivr.net/npm/vega-datasets@3.2.1/data/cars.json",
+      "bytes": 100492,
+      "sha256": "f686a53678b21f4231e2f6a5ba7ce5761d9d39204fccdea1caa29fb8c460e319",
+      "catalog_hash_verified": false,
+      "catalog_sha1": "sha1:1d56d3fa6da01af9ece2d6397892fe5bb6f47c3d",
+      "download_sha1": "sha1:77628b89208e429a47c4b2a430c3fa6f3865e647",
+      "github_url": "https://raw.githubusercontent.com/vega/vega-datasets/v3.2.1/data/cars.json",
+      "github_bytes_identical": true,
+      "rows": 406,
+      "columns": 9,
+      "dtypes": {
+        "Name": "object",
+        "Miles_per_Gallon": "float64",
+        "Cylinders": "int64",
+        "Displacement": "float64",
+        "Horsepower": "float64",
+        "Weight_in_lbs": "int64",
+        "Acceleration": "float64",
+        "Year": "object",
+        "Origin": "object"
+      },
+      "nulls": {
+        "Name": 0,
+        "Miles_per_Gallon": 8,
+        "Cylinders": 0,
+        "Displacement": 0,
+        "Horsepower": 6,
+        "Weight_in_lbs": 0,
+        "Acceleration": 0,
+        "Year": 0,
+        "Origin": 0
+      },
+      "blank_strings": {
+        "Name": 0,
+        "Miles_per_Gallon": 0,
+        "Cylinders": 0,
+        "Displacement": 0,
+        "Horsepower": 0,
+        "Weight_in_lbs": 0,
+        "Acceleration": 0,
+        "Year": 0,
+        "Origin": 0
+      },
+      "duplicate_rows": 0,
+      "sources": [
+        {
+          "title": "StatLib Datasets Archive",
+          "path": "http://lib.stat.cmu.edu/datasets/"
+        }
+      ],
+      "description": "Collection of car specifications and performance metrics from various automobile manufacturers."
+    },
+    "seattle-weather.csv": {
+      "url": "https://cdn.jsdelivr.net/npm/vega-datasets@3.2.1/data/seattle-weather.csv",
+      "bytes": 48219,
+      "sha256": "0845078a290b48e3149ab8639966824110a251db4e06fc144c06ebb534af23be",
+      "catalog_hash_verified": false,
+      "catalog_sha1": "sha1:0f38b53bdc1c42c5e5d484f33b9d4d7b229e0e59",
+      "download_sha1": "sha1:cd594240afef8932e25b173e8b804cdecd1780b6",
+      "github_url": "https://raw.githubusercontent.com/vega/vega-datasets/v3.2.1/data/seattle-weather.csv",
+      "github_bytes_identical": true,
+      "rows": 1461,
+      "columns": 6,
+      "dtypes": {
+        "date": "object",
+        "precipitation": "float64",
+        "temp_max": "float64",
+        "temp_min": "float64",
+        "wind": "float64",
+        "weather": "object"
+      },
+      "nulls": {
+        "date": 0,
+        "precipitation": 0,
+        "temp_max": 0,
+        "temp_min": 0,
+        "wind": 0,
+        "weather": 0
+      },
+      "blank_strings": {
+        "date": 0,
+        "precipitation": 0,
+        "temp_max": 0,
+        "temp_min": 0,
+        "wind": 0,
+        "weather": 0
+      },
+      "duplicate_rows": 0,
+      "sources": [
+        {
+          "title": "NOAA National Climatic Data Center",
+          "path": "https://www.ncdc.noaa.gov/cdo-web/datatools/records"
+        }
+      ],
+      "description": "Daily weather in metric units. Transformed using `/scripts/weather.py`. \nThe categorical \"weather\" field is synthesized from multiple fields in the original dataset. \nThis data is intended for instructional purposes."
+    },
+    "penguins.json": {
+      "url": "https://cdn.jsdelivr.net/npm/vega-datasets@3.2.1/data/penguins.json",
+      "bytes": 67119,
+      "sha256": "0facf769609f1205b82cbceb8238c36af3e6147a0ca0e163902cc6281ce3e917",
+      "catalog_hash_verified": false,
+      "catalog_sha1": "sha1:517b6d3267174b1b65691a37cbd59c1739155866",
+      "download_sha1": "sha1:1cd902367061ec07d2bf329ae81e150b49dc0761",
+      "github_url": "https://raw.githubusercontent.com/vega/vega-datasets/v3.2.1/data/penguins.json",
+      "github_bytes_identical": true,
+      "rows": 344,
+      "columns": 7,
+      "dtypes": {
+        "Species": "object",
+        "Island": "object",
+        "Beak Length (mm)": "float64",
+        "Beak Depth (mm)": "float64",
+        "Flipper Length (mm)": "float64",
+        "Body Mass (g)": "float64",
+        "Sex": "object"
+      },
+      "nulls": {
+        "Species": 0,
+        "Island": 0,
+        "Beak Length (mm)": 2,
+        "Beak Depth (mm)": 2,
+        "Flipper Length (mm)": 2,
+        "Body Mass (g)": 2,
+        "Sex": 10
+      },
+      "blank_strings": {
+        "Species": 0,
+        "Island": 0,
+        "Beak Length (mm)": 0,
+        "Beak Depth (mm)": 0,
+        "Flipper Length (mm)": 0,
+        "Body Mass (g)": 0,
+        "Sex": 0
+      },
+      "duplicate_rows": 0,
+      "sources": [
+        {
+          "title": "Palmer Station Antarctica LTER",
+          "path": "https://pal.lternet.edu/"
+        },
+        {
+          "title": "Allison Horst's Penguins Repository",
+          "path": "https://github.com/allisonhorst/penguins"
+        }
+      ],
+      "description": "Records of morphological measurements and demographic information from 344 Palmer Archipelago \npenguins across three species. Collected by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the Palmer Station Antarctica [LTER](https://lternet.edu/). \nData gathering occurred as part of Palmer Station's long-term ecological research, contributing to studies of Antarctic marine\necosystems and penguin biology. All measurements follow standardized units, enabling research into morphological \nvariations between species and sexual dimorphism in Antarctic penguins. \n"
+    },
+    "gapminder.json": {
+      "url": "https://cdn.jsdelivr.net/npm/vega-datasets@3.2.1/data/gapminder.json",
+      "bytes": 75201,
+      "sha256": "70630efd862153116c1518a098a5a3bc4ca8c9f037306f86fba282a2720909b9",
+      "catalog_hash_verified": false,
+      "catalog_sha1": "sha1:8cb2f0fc23ce612e5f0c7bbe3dcac57f6764b7b3",
+      "download_sha1": "sha1:93dbd6121eca672b534eb65bf885a271d584649f",
+      "github_url": "https://raw.githubusercontent.com/vega/vega-datasets/v3.2.1/data/gapminder.json",
+      "github_bytes_identical": true,
+      "rows": 682,
+      "columns": 6,
+      "dtypes": {
+        "year": "int64",
+        "country": "object",
+        "cluster": "int64",
+        "pop": "int64",
+        "life_expect": "float64",
+        "fertility": "float64"
+      },
+      "nulls": {
+        "year": 0,
+        "country": 0,
+        "cluster": 0,
+        "pop": 0,
+        "life_expect": 0,
+        "fertility": 0
+      },
+      "blank_strings": {
+        "year": 0,
+        "country": 0,
+        "cluster": 0,
+        "pop": 0,
+        "life_expect": 0,
+        "fertility": 0
+      },
+      "duplicate_rows": 0,
+      "sources": [
+        {
+          "title": "Gapminder Foundation - Life Expectancy (Data)",
+          "path": "https://docs.google.com/spreadsheets/d/1RehxZjXd7_rG8v2pJYV6aY0J3LAsgUPDQnbY4dRdiSs/edit?gid=176703676#gid=176703676",
+          "version": "14"
+        },
+        {
+          "title": "Gapminder Foundation - Life Expectancy (Documentation)",
+          "path": "https://www.gapminder.org/data/documentation/gd004/"
+        },
+        {
+          "title": "Gapminder Foundation - Population (Data)",
+          "path": "https://docs.google.com/spreadsheets/d/1c1luQNdpH90tNbMIeU7jD__59wQ0bdIGRFpbMm8ZBTk/edit?gid=176703676#gid=176703676",
+          "version": "7"
+        },
+        {
+          "title": "Gapminder Foundation - Population (Documentation)",
+          "path": "https://www.gapminder.org/data/documentation/gd003/"
+        },
+        {
+          "title": "Gapminder Foundation - Fertility (Data)",
+          "path": "https://docs.google.com/spreadsheets/d/1aLtIpAWvDGGa9k2XXEz6hZugWn0wCd5nmzaRPPjbYNA/edit?gid=176703676#gid=176703676",
+          "version": "14"
+        },
+        {
+          "title": "Gapminder Foundation - Fertility Documentation (Documentation)",
+          "path": "https://www.gapminder.org/data/documentation/gd008/"
+        },
+        {
+          "title": "Gapminder Foundation - Data Geographies (Data)",
+          "path": "https://docs.google.com/spreadsheets/d/1qHalit8sXC0R8oVXibc2wa2gY7bkwGzOybEMTWp-08o/edit?gid=1597424158#gid=1597424158",
+          "version": "2"
+        },
+        {
+          "title": "Gapminder Foundation - Data Geographies (Documentation)",
+          "path": "https://www.gapminder.org/data/geo/"
+        },
+        {
+          "title": "Gapminder Data Documentation",
+          "path": "https://www.gapminder.org/data/documentation/"
+        }
+      ],
+      "description": "Combines key demographic indicators (life expectancy at birth, \npopulation, and fertility rate measured as babies per woman) for various countries from 1955 \nto 2005 at 5-year intervals. Includes a 'cluster' column, a categorical variable \ngrouping countries. Gapminder's data documentation notes that its philosophy is to fill data \ngaps with estimates and use current geographic boundaries for historical data. Gapminder \nstates that it aims to \"show people the big picture\" rather than support detailed numeric \nanalysis.\n\nNotes:\n1. Country Selection: The set of countries matches the version of this dataset \n   originally added to this collection in 2015. The specific criteria for country selection \n   in that version are not known. Data for Aruba are no longer available in the new version. \n   Hong Kong has been revised to Hong Kong, China in the new version.\n\n2. Data Precision: The precision of float values may have changed from the original version. \n   These changes reflect the most recent source data used for each indicator.\n\n3. Regional Groupings: To preserve continuity with previous versions of this dataset, we have retained the column \n   name 'cluster' instead of renaming it to 'six_regions'. \n"
+    }
+  }
+}

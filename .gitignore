@@ -1,0 +1,41 @@
+# Credenciais e configurações privadas
+.env
+.env.*
+*.env
+.aws/
+.codex/
+.agents/
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Python e ambientes locais
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+.python-version
+
+# Jupyter e backups locais (preservados no disco)
+.ipynb_checkpoints/
+notebooks/backups/
+
+# Caches, temporários e ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.tmp
+*.temp
+*.log
+~$*
+
+# Configuração local de editores e Windows
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
