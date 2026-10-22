@@ -9,13 +9,11 @@ com fundamentação, análise exploratória, código, gráficos, métricas e con
 
 | Campo | Identificação |
 |---|---|
-| Instituição | PUC-SP, conforme material; confirmar denominação |
-| Disciplina | [PREENCHER — nome oficial] |
-| Professor(a) | [PREENCHER] |
-| Integrante 1 | [PREENCHER — nome e identificação acadêmica] |
-| Integrante 2 | [PREENCHER — nome e identificação acadêmica] |
-| Turma | [PREENCHER] |
-| Data de entrega | [PREENCHER — dd/mm/aaaa] |
+| Instituição | PUC-SP |
+| Disciplina | Inteligência Artificial |
+| Professor(a) | Daniel |
+| Integrante 1 | Caroline Campos RA00335765 |
+| Integrante 2 | Gustavo Macedo RA00335844 |
 
 ## Dataset e procedência
 
